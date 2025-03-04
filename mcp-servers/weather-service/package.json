@@ -1,0 +1,22 @@
+{
+  "name": "weather-service-mcp",
+  "version": "1.0.0",
+  "description": "Weather Service MCP Server for Cursor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "weather-service"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^0.1.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}

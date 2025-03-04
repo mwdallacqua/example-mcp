@@ -1,0 +1,20 @@
+{
+  "name": "mcp-client-examples",
+  "version": "1.0.0",
+  "description": "Client examples for MCP servers",
+  "scripts": {
+    "task-manager": "node task-manager-client.js",
+    "file-explorer": "node file-explorer-client.js",
+    "weather-service": "node weather-service-client.js"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "client"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

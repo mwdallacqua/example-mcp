@@ -1,0 +1,23 @@
+{
+  "name": "example-mcp",
+  "version": "1.0.0",
+  "description": "Example implementations of Model Context Protocol (MCP) servers for Cursor",
+  "scripts": {
+    "start:task-manager": "cd mcp-servers/task-manager && npm install && npm start",
+    "start:file-explorer": "cd mcp-servers/file-explorer && npm install && npm start",
+    "start:weather-service": "cd mcp-servers/weather-service && npm install && npm start",
+    "start:original-example": "cd mcp-servers/original-example && npm install && npm start",
+    "start:all": "concurrently \"npm run start:task-manager\" \"npm run start:file-explorer\" \"npm run start:weather-service\"",
+    "client:task-manager": "cd client-examples && npm install && npm run task-manager"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
